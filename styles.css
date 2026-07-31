@@ -267,6 +267,31 @@ p {
   margin-top: 0.25rem;
 }
 
+/* Feature photo */
+.photo-feature {
+  padding: 2.5rem 0 0;
+}
+
+.photo-feature figure {
+  margin: 0;
+}
+
+.photo-feature img {
+  width: 100%;
+  max-height: 560px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 12px 30px rgba(43, 30, 20, 0.18);
+}
+
+.photo-feature figcaption {
+  text-align: center;
+  font-style: italic;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-top: 0.9rem;
+}
+
 /* Sections */
 .section {
   padding: 3.5rem 0;
