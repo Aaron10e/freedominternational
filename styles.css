@@ -163,6 +163,26 @@ p {
   gap: 2rem;
 }
 
+.lang-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  background: var(--gold);
+  color: var(--maroon-dark);
+  border: none;
+  border-radius: 24px;
+  padding: 0.65rem 1.4rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.lang-toggle-btn:hover {
+  background: #a3761f;
+}
+
 /* Hero */
 .hero {
   background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);
@@ -523,6 +543,10 @@ p {
 
   .header-cta {
     text-align: center;
+  }
+
+  .lang-toggle-btn {
+    justify-content: center;
   }
 
   .hero h1 {
